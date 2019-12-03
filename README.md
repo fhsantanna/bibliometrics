@@ -8,12 +8,26 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-The notebooks need a Jupyter environment to run. Also, some scripts have some Python 3 dependencies. The easiest way to install them will be through Conda (https://docs.conda.io/en/latest/miniconda.html).
-Once Miniconda is installed, you may need to first run these commands to install the dependencies:
+All scripts were written in Python 3 language, and they are provided as Jupyter notebooks (an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text).
+
+The scripts need the following Python 3 libraries:
+- Bioconda
+- Pandas
+- Seaborn
+- Matplotlib
+- NLTK
+- [Affiliation Parser](https://github.com/titipata/affiliation_parser) 
+
+The easiest way to install them will be through Conda (https://docs.conda.io/en/latest/miniconda.html).
+Once Miniconda is installed, you may need to first run these commands to install Jupyter and Python libraries (Affiliation Parser must be installed independently):
 
 ```
-conda install -c anaconda jupyter #install jupyter
-
+conda install -c anaconda jupyter
+conda install -c bioconda bioconda-utils
+conda install -c anaconda pandas 
+conda install -c anaconda seaborn 
+conda install -c conda-forge matplotlib
+conda install -c anaconda nltk
 ```
 
 ### Installing
