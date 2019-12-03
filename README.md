@@ -2,7 +2,7 @@
 
 This repository contains a collection of Jupyter Notebooks for extracting information from textual content of abstracts of bacterial descríptions published between 2001 and 2018, which were downloaded from Pubmed.
 
-### Prerequisites
+## Prerequisites
 
 All scripts were written in Python 3 language, and they are provided as Jupyter notebooks (an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text).
 
@@ -26,7 +26,7 @@ conda install -c conda-forge matplotlib
 conda install -c anaconda nltk
 ```
 
-### Installing
+## Installing
 
 ```
 git clone https://github.com/fhsantanna/bibliometrics
@@ -40,7 +40,8 @@ jupyter notebook
 ```
 In the opened web browser (http://localhost:8888), go to the folder "bibliometrics" and open the desired notebook.
 
-### Description of each notebook
+
+## Description of each notebook
 
 Explain what these tests test and why
 
