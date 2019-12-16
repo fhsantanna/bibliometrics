@@ -40,9 +40,21 @@ jupyter notebook
 In the opened web browser (http://localhost:8888), go to the folder "bibliometrics" and open the desired notebook.
 
 
-## Description of each notebook
+## Description of the notebooks
 
-Explain what these tests test and why
+* Notebook 1 - Organize the data of the MEDLINE file in a table (fields Journal, Title, Abstract, Authors and Year). Filter out erratas, comments, responses, descriptions of Candidatus or protist species, and items with publication dates of 2019 or without abstracts from the final dataset. Input: "sp_nov_2001_2018_pubmed_16012019.medline"
+
+* Notebook 2 - Count the number of items of each journal. Count the number of items per author. Input: "table_1_eligible.csv"
+
+* Notebook 3 - Extract and count species, genus and phylum names. Generate word cloud. Input: "table_1_eligible.csv"
+
+* Notebook 4 - Count and plot the word frequency of the abstracts. Input: "table_1_eligible.csv"
+
+* Notebook 5 - Identify the first author's country. Plot production by country per year.  Inputs: "sp_nov_2001_2018_pubmed_16012019_ed.xml" and "table_1_eligible.csv"
+
+* Notebook 6 - Count and plot the bigram frequency of the abstracts. Input: "table_1_eligible.csv"
+
+* Notebook 7 - Count and plot the number of described species per year. Input: "DSMZ_bactnames.xlsx"
 
 ## Author
 
