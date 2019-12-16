@@ -7,18 +7,19 @@ This repository contains a collection of Jupyter Notebooks for extracting inform
 All scripts were written in Python 3 language, and they are provided as Jupyter notebooks (an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text).
 
 The scripts need the following Python 3 libraries:
-- Biopython
+- Bioconda
 - Pandas
 - Seaborn
 - Matplotlib
 - NLTK
+- [Affiliation Parser](https://github.com/titipata/affiliation_parser) 
 
 The easiest way to install them will be through Conda (https://docs.conda.io/en/latest/miniconda.html).
-Once Miniconda is installed, you may need to first run these commands to install Jupyter and Python libraries:
+Once Miniconda is installed, you may need to first run these commands to install Jupyter and Python libraries (Affiliation Parser must be installed independently):
 
 ```
 conda install -c anaconda jupyter
-conda install -c conda-forge biopython 
+conda install -c bioconda bioconda-utils
 conda install -c anaconda pandas 
 conda install -c anaconda seaborn 
 conda install -c conda-forge matplotlib
@@ -47,3 +48,4 @@ Explain what these tests test and why
 ## Author
 
 * **Dr. Fernando Hayashi Sant'Anna** - [fhsantanna](https://github.com/PurpleBooth)
+
