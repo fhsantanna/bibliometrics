@@ -54,7 +54,7 @@ In the opened web browser (http://localhost:8888), go to the folder "bibliometri
 
 * Notebook 6 - Count and plot the bigram frequency of the abstracts. Input: "table_1_eligible.csv"
 
-* Notebook 7 - Count and plot the number of described species per year. Input: "DSMZ_bactnames.xlsx"
+* Notebook 7 - Count and plot the number of described species per year. Input: "DSMZ_bactnames.csv"
 
 ## Author
 
