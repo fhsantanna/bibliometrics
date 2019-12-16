@@ -58,5 +58,5 @@ In the opened web browser (http://localhost:8888), go to the folder "bibliometri
 
 ## Author
 
-* **Dr. Fernando Hayashi Sant'Anna** - [fhsantanna](https://github.com/PurpleBooth)
+* **Dr. Fernando Hayashi Sant'Anna** - [fhsantanna](https://github.com/fhsantanna/)
 
