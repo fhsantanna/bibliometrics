@@ -56,7 +56,9 @@ In the opened web browser (http://localhost:8888), go to the folder "bibliometri
 
 * Notebook 7 - Count and plot the number of described species per year. Input: "DSMZ_bactnames.csv"
 
+* Notebook 8 - Verify and count valid names. Inputs: "DSMZ_bactnames.csv", "table_1_eligible.csv" and "freq_species.csv"
+
+
 ## Author
 
-* **Dr. Fernando Hayashi Sant'Anna** - [fhsantanna](https://github.com/fhsantanna/)
-
+* **Dr. Fernando Hayashi Sant'Anna** - [fhsantanna](https://github.com/PurpleBooth)
