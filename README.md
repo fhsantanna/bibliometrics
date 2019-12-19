@@ -40,6 +40,19 @@ jupyter notebook
 In the opened web browser (http://localhost:8888), go to the folder "bibliometrics" and open the desired notebook.
 
 
+## Description of the files
+
+* "sp_nov_2001_2018_pubmed_16012019.medline" - raw input in medline format
+
+* "sp_nov_2001_2018_pubmed_16012019_ed.xml" - raw input in XML format
+
+* "table_1_eligible.csv" - curated table containing eligible records
+
+* "DSMZ_bactnames.csv" - DSMZ Prokaryotic Nomenclature up-to-date in CSV format (August 2019)
+
+* "all_data_eligible_records.csv" - curated table containing all data from the eligible records
+
+
 ## Description of the notebooks
 
 * Notebook 1 - Organize the data of the MEDLINE file in a table (fields Journal, Title, Abstract, Authors and Year). Filter out erratas, comments, responses, descriptions of Candidatus or protist species, and items with publication dates of 2019 or without abstracts from the final dataset. Input: "sp_nov_2001_2018_pubmed_16012019.medline"
