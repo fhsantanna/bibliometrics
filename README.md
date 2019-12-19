@@ -31,6 +31,7 @@ conda install -c anaconda nltk
 git clone https://github.com/fhsantanna/bibliometrics
 cd bibliometrics
 ```
+* Unpack the zip files
 
 ## Running the scripts
 Start the Jupyter server with the following command:
